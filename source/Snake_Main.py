@@ -19,7 +19,7 @@ def Cycle(board, snake, food):
             else:
                 print(" ", end="")
         print()
-
+#Test
 board = [[" "] * 20 for _ in range(20)]
 snake = [[10, 10]]
 food = AddFood(board)
